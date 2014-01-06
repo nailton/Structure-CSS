@@ -614,9 +614,8 @@ table {
   padding-left: 15px;
   padding-right: 15px;
   color: #fff;
-  border-left: 1px solid #555;
-  border-bottom: 1px solid #555;
-  border-top: 1px solid #555;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: none;
   float: left;
 }
 .paginator-dark ul li:hover {
@@ -627,7 +626,7 @@ table {
 }
 .paginator-dark ul li.link-right {
   border-radius: 0px 3px 3px 0px;
-  border-right: 1px solid #555;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
 .paginator-dark ul li.selected {
   background-color: #3C90DB;
