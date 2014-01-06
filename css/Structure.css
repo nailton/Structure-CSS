@@ -533,7 +533,8 @@ table {
   padding: 0;
   z-index: 1;
 }
-#sidebar ul a li {
+#sidebar ul li a {
+  display: inline-block;
   text-transform: capitalize;
   color: #888;
   text-decoration: none;
@@ -542,13 +543,13 @@ table {
   padding-bottom: 15px;
   padding-left: 10px;
 }
-#sidebar ul ul li:hover {
+#sidebar ul li a:hover {
   background-color: #333;
 }
-#sidebar ul li.selected {
+#sidebar ul a.selected {
   background-color: #333;
 }
-#sidebar ul ul li.header {
+#sidebar ul ul a.header {
   color: #fff !important;
   border-bottom: 1px solid #333;
   text-transform: uppercase;
